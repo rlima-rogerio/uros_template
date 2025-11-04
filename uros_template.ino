@@ -7,7 +7,7 @@
 #include <std_msgs/msg/int32.h>
 
 char ssid[] = "SHARKY_2.4GHz";
-char password[] = "fliperama2309";
+char password[] = "xxxxxxx";
 
 // IP do computador onde roda o micro-ros-agent
 // char agent_ip[] = "192.168.0.104";  // Lima-2G @ UFMG
