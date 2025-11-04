@@ -6,12 +6,13 @@
 #include <rclc/executor.h>
 #include <std_msgs/msg/int32.h>
 
-char ssid[] = "SHARKY_2.4GHz";
+// char ssid[] = "SHARKY_2.4GHz";  // @ home
+char ssid[] = "Lima-2G";        // @ UFMG
 char password[] = "xxxxxxx";
 
 // IP do computador onde roda o micro-ros-agent
-// char agent_ip[] = "192.168.0.104";  // Lima-2G @ UFMG
-char agent_ip[] = "192.168.100.8";  // SHARKY_2.4GHz @ Home
+char agent_ip[] = "192.168.0.106";  // Lima-2G @ UFMG
+// char agent_ip[] = "192.168.100.8";  // SHARKY_2.4GHz @ Home
 const int agent_port = 8888;
 
 rcl_publisher_t publisher;
